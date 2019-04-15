@@ -1,0 +1,1 @@
+Полное описание Stream API https://annimon.com/article/2778

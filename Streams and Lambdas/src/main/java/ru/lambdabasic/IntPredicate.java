@@ -1,4 +1,4 @@
-package ru.LambdaBasic;
+package ru.lambdabasic;
 
 @FunctionalInterface
 public interface IntPredicate {

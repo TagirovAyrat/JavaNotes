@@ -1,4 +1,4 @@
-package ru.LambdaBasic;
+package ru.lambdabasic;
 
 public class MyPredicate {
     static boolean isPrime(int n){

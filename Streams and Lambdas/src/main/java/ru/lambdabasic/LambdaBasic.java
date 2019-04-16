@@ -1,4 +1,4 @@
-package ru.LambdaBasic;
+package ru.lambdabasic;
 
 public class LambdaBasic {
     public static void main(String[] args) {
@@ -48,6 +48,7 @@ public class LambdaBasic {
     static String changeStr(StringFunc fc, String s) {
         return fc.func(s);
     }
+
     static boolean numTest(IntPredicate p, int v){
         return p.test(v);
     }

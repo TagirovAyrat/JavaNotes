@@ -1,4 +1,4 @@
-package ru.LambdaBasic;
+package ru.lambdabasic;
 
 public class MyClass {
     private String str;

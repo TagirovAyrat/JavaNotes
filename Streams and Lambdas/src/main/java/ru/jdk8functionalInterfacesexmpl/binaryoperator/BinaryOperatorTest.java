@@ -15,6 +15,5 @@ public class BinaryOperatorTest {
         Map<String, String> map = new HashMap<>();
         map.put("Best", "Practice");
         map.forEach(bOper::apply);
-
     }
 }

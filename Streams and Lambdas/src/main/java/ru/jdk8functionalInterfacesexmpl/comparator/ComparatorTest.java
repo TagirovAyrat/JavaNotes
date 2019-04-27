@@ -27,5 +27,8 @@ public class ComparatorTest {
         workers.sort(Comparator.comparing(Worker::getName));
         System.out.println("Sorted by Name");
         System.out.println(workers);
+        workers.sort(Comparator.comparing(Worker::getAge).reversed());
+        System.out.println("Sort by age reserved");
+        System.out.println(workers);
     }
 }

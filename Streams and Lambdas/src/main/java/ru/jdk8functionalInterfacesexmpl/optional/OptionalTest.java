@@ -24,8 +24,8 @@ public class OptionalTest {
         Optional<String> nameOptional
                 = nameOptionalWrapper.orElseThrow(IllegalArgumentException::new);
 
-        String s1 = nameOptional.isPresent();
-        System.out.println("name" + s1);
+//        String s1 = nameOptional.isPresent();
+//        System.out.println("name" + s1);
 
         String s = personOptional
                 .flatMap(Person::getName)
